@@ -1,5 +1,5 @@
 ## Adapted from:
-##    https://swimburger.net/blog/dotnet/how-to-deploy-aspnet-blazor-webassembly-to-github-pages
+##  https://swimburger.net/blog/dotnet/how-to-deploy-aspnet-blazor-webassembly-to-github-pages
 
 name: Deploy to GitHub Pages
 on:
