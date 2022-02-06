@@ -16,7 +16,7 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Publish .NET Project
-      run: dotnet BlazorWasmSample -c Release -o release --nologo
+      run: /home/runner/.dotnet/dotnet BlazorWasmSample -c Release -o release --nologo
     - name: Commit wwwroot to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
